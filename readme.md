@@ -19,9 +19,14 @@ Heroku:- https://visibility-prediction.herokuapp.com/
 
 AWS(Ec2):- https://ec2-54-84-85-146.compute-1.amazonaws.com:5000 
 
+* Web
+![pic1](https://user-images.githubusercontent.com/47842305/139574877-0f69b2d6-b1cc-4c57-9871-d36c5521425d.png)
+![pic2](https://user-images.githubusercontent.com/47842305/139574888-6834b33d-0913-4a42-9a15-e3cea6f399ac.png)
+
 
 ## Overview  📜
 The application is a web app which is developed in Flask Framework.
+
 ## Dataset  
 Dataset available in kaggle: PaySim
 
@@ -39,6 +44,17 @@ The Code is written in Python 3.8 If you don't have Python installed you can fin
 ```
 ## Deployment
 
+# Heroku
+App is deployed in the heroku login. 
+![image](https://user-images.githubusercontent.com/47842305/139574946-ccf9a882-93ac-4379-86c4-8562b00050bb.png)
+
+# AWS
+App is deployed in the AWS EC2 instance for free tier.
+![image](https://user-images.githubusercontent.com/47842305/139574951-4d9f1732-456c-4862-b9c0-84f673c7f6b7.png)
+
+* Database
+![pic3](https://user-images.githubusercontent.com/47842305/139574890-9579d928-05cb-4f5a-a345-b94de7c4edff.png)
+
 ## Database 
 
 ## Tree Structure
@@ -52,7 +68,8 @@ The Code is written in Python 3.8 If you don't have Python installed you can fin
 │   ├── database.html
 │   ├── index.html
 ├── src
-│   ├── model_train
+│   ├── data_preprocessing.py
+│   ├── model_training.py
 │   ├── index.html
 ├── Money_Laundering_EDA.ipynb
 ├── XGB_Classifier.pkl
@@ -83,6 +100,12 @@ The Code is written in Python 3.8 If you don't have Python installed you can fin
 * FrontEnd: HTML & CSS
 * Backend: Flask 
 * Deployment : AWS, Heroku
+
+![image](https://user-images.githubusercontent.com/47842305/139575209-6e90151b-be8c-4ff1-97d9-a7ff5f6b7d94.png)
+![image](https://user-images.githubusercontent.com/47842305/139575214-64b5b442-45f6-4d3e-b397-1deb869704e1.png)
+![image](https://user-images.githubusercontent.com/47842305/139575215-59c28f81-73f4-4f5d-8e2a-7893b3204fcc.png)
+![image](https://user-images.githubusercontent.com/47842305/139575216-01043b7b-1ee9-4ec0-a422-baa146a8555c.png)
+
 
 ## Contributers
 You can feel free to reach out me at shubhammourya2014@gmail.com
