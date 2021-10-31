@@ -52,10 +52,8 @@ App is deployed in the heroku login.
 App is deployed in the AWS EC2 instance for free tier.
 ![image](https://user-images.githubusercontent.com/47842305/139574951-4d9f1732-456c-4862-b9c0-84f673c7f6b7.png)
 
-* Database
-![pic3](https://user-images.githubusercontent.com/47842305/139574890-9579d928-05cb-4f5a-a345-b94de7c4edff.png)
-
 ## Database 
+![pic3](https://user-images.githubusercontent.com/47842305/139574890-9579d928-05cb-4f5a-a345-b94de7c4edff.png)
 
 ## Tree Structure
 ```javascript
@@ -101,14 +99,11 @@ App is deployed in the AWS EC2 instance for free tier.
 * Backend: Flask 
 * Deployment : AWS, Heroku
 
-![image](https://user-images.githubusercontent.com/47842305/139575209-6e90151b-be8c-4ff1-97d9-a7ff5f6b7d94.png)
-![image](https://user-images.githubusercontent.com/47842305/139575214-64b5b442-45f6-4d3e-b397-1deb869704e1.png)
-![image](https://user-images.githubusercontent.com/47842305/139575215-59c28f81-73f4-4f5d-8e2a-7893b3204fcc.png)
-![image](https://user-images.githubusercontent.com/47842305/139575216-01043b7b-1ee9-4ec0-a422-baa146a8555c.png)
-![image](https://user-images.githubusercontent.com/47842305/139575314-975efc25-c9fa-42e4-9ebe-bb4331adfe59.png)
+[<img target="_blank" src="https://flask.palletsprojects.com/en/1.1.x/_images/flask-logo.png" width=170>](https://flask.palletsprojects.com/en/1.1.x/) [<img target="_blank" src="https://user-images.githubusercontent.com/47842305/139575394-3e1fad0f-f2a1-45b2-a659-8aecc9124b1b.png" width=280>](https://cassandra.apache.org/_/index.html)[<img target="_blank" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEHMPPej34qcJENKeCNdpqnZ5V9vLrmwVIvw&usqp=CAU" width=280>](https://aws.amazon.com/) [<img target="_blank" src="https://seeklogo.com/images/B/bootstrap-logo-69A1CCC10B-seeklogo.com.png" width=200>](https://getbootstrap.com/) 
+
 
 
 ## Contributers
 You can feel free to reach out me at shubhammourya2014@gmail.com
 
-@Shubham Mourya
+- [Shubham Mourya](https://github.com/msahubham1)
