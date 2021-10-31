@@ -46,7 +46,8 @@ The Code is written in Python 3.8 If you don't have Python installed you can fin
 
 # Heroku
 App is deployed in the heroku login. 
-![image](https://user-images.githubusercontent.com/47842305/139574946-ccf9a882-93ac-4379-86c4-8562b00050bb.png)
+[![](https://i.imgur.com/dKmlpqX.png)](https://heroku.com)
+![image]([![](https://i.imgur.com/dKmlpqX.png)](https://heroku.com))
 
 # AWS
 App is deployed in the AWS EC2 instance for free tier.
