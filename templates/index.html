@@ -1,0 +1,141 @@
+   
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Laundering Prevention</title>
+    <style>
+     body {
+            background-color:#6666ff;
+            text-align: center;
+            padding: 0px;
+        }
+        }
+    
+    
+        .row {
+            display: flex;
+        }
+    
+        .column {
+            flex: 50%;
+            padding: 10px;
+            height: 100%;
+            /* Should be removed. Only for demonstration */
+        } 
+       
+        #step {
+            font-size: 18px;
+            width: 100px;
+            height: 23px;
+            top: 23px;
+        }
+       
+        
+        #sub {
+            width: 120px;
+            height: 43px;
+            text-align: center;
+            border-radius: 14px;
+            font-size: 18px;
+        }
+        
+        #sub:hover {
+            background-color: darkcyan;
+        }
+        
+        #amount {
+            border-radius: 14px;
+            height: 25px;
+            font-size: 20px;
+            text-align: center;
+        }
+      
+     
+    </style>
+</head>
+
+<body  background="templates/premium.jpg">
+  <div>
+
+        <div style="height: 100px; width: 100%; padding: 30px;  ">
+            <center>
+                <h1 > Money Laundering Prevention </h1>
+            </center>
+       
+
+        <style>
+
+            .result_div {
+                height: 80px;
+                width: 600px;
+                border-radius: 25px;
+                background-color: #B0E0E6;
+            }
+
+            .result_text {
+                padding: 15px;
+                text-align: center;
+            }
+
+        </style>
+         </div>
+        <center>
+
+            {% if result == 'The transaction is fraud!! Be Aware.' %}
+            <div class="result_div" style="border: 3px solid red;">
+                <h2 class="result_text" style="color: red;"> <b>{{result}}</b> </h2>
+            </div>
+            {% endif %}
+
+            {% if result == 'You are safe The trsaction is not Fraud.' %}
+            <div class="result_div" style="border: 3px solid green;">
+                <h2 class="result_text" style="color:green;"> <b>{{result}}</b> </h2>
+            </div>
+            {% endif %}
+
+            <!-- <h1> {{result}} </h1> -->
+            <br> 
+        </center> 
+        
+
+     <div class="row" style="color:black">
+        <div class="column">
+
+          <form action="{{ url_for('predict')}}" method="post">
+         
+            <h3>Step :</h3><input id="step" name="step" type="text">
+            <h3>Amount :</h3><br><input id="amount" name="amount" required="required">
+            <h3>OldbalanceOrg : </h3><input id="amount" name="oldbalanceOrg" required="required">
+            <h3>OldbalanceDest: </h3><br><input id="amount" name="oldbalanceDest" required="required">
+            <h3>Type: </h3><br><select id="amount"  name="type" required>
+ 				 <option value="CASH_IN"> CASH_IN </option>
+				 <option value="CASH_OUT"> CASH_OUT </option>
+ 				 <option value="DEBIT"> DEBIT </option>
+				 <option value="PAYMENT"> PAYMENT </option>
+                <option value="TRANSFER"> TRANSFER </option>
+			       </select> 
+
+            <br><br><button id="sub" type="submit ">Predict</button>
+            <br>
+
+          </form>
+           <center>
+                <b>
+                    <p> Shubham Mourya ( Money Laundering Prevention )<br>© 2021</p>
+                </b>
+                <br>
+            </center>
+
+        </div>
+    </div>
+
+
+   
+</div>
+  
+</body>
+
+</html>
