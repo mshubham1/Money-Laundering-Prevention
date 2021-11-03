@@ -1,5 +1,5 @@
 import numpy as np
-from src.model_training import  trainModel
+from model_training import  trainModel
 from flask import Flask, request, render_template
 from app_logger.logger import App_Logger
 from Database_Files.db_operation import Connector
