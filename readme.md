@@ -15,7 +15,6 @@ To build a machine learning model that can identify the money laundering activit
 * Bug/Feature Request
 * Future scope of project
 ## Demo
-Heroku:- https://money-laundering-prevention.herokuapp.com/
 
 AWS(Ec2):- http://ec2-3-137-189-77.us-east-2.compute.amazonaws.com:8080/
 
@@ -43,11 +42,6 @@ The Code is written in Python 3.8 If you don't have Python installed you can fin
   pip install -r requirements.txt
 ```
 ## Deployment
-
-# Heroku
-App is deployed in the heroku login. 
-[![](https://i.imgur.com/dKmlpqX.png)](https://heroku.com)
-![image]([![](https://i.imgur.com/dKmlpqX.png)](https://heroku.com))
 
 # AWS
 App is deployed in the AWS EC2 instance for free tier.
