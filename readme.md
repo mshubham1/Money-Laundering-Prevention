@@ -15,9 +15,9 @@ To build a machine learning model that can identify the money laundering activit
 * Bug/Feature Request
 * Future scope of project
 ## Demo
-Heroku:- https://visibility-prediction.herokuapp.com/
+Heroku:- https://money-laundering-prevention.herokuapp.com/
 
-AWS(Ec2):- https://ec2-54-84-85-146.compute-1.amazonaws.com:5000 
+AWS(Ec2):- http://ec2-3-137-189-77.us-east-2.compute.amazonaws.com:8080/
 
 * Web
 ![pic1](https://user-images.githubusercontent.com/47842305/139574877-0f69b2d6-b1cc-4c57-9871-d36c5521425d.png)
