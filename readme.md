@@ -84,15 +84,15 @@ App is deployed in the AWS EC2 instance for free tier.
 
 ## Documentation
 
-[Architecture](https://linktodocumentation)
+[Architecture](https://drive.google.com/file/d/18NdLeKn-km_UNrUmqlVfkjr07p7VS_R6/view?usp=sharing)
 
-[Low Level Documentation](https://linktodocumentation)
+[Low Level Documentation](https://drive.google.com/file/d/1lOUOVy4hYDlY8_e1YQBSsK30NRFINX6g/view?usp=sharing)
 
-[High Level Documentation](https://linktodocumentation)
+[High Level Documentation](https://drive.google.com/file/d/1iM5hGrN410SSsK-6X13s17Ppaf4FoGM8/view?usp=sharing)
 
-[Wired Framed Diagram](https://linktodocumentation)
+[Wired Framed Diagram](https://docs.google.com/document/d/1Rf90BJMVpcisedttbGoKxLp8tS9nJOJR/edit?usp=sharing&ouid=104872906058094005807&rtpof=true&sd=true)
 
-[DRP (Detailed Document Report)](https://linktodocumentation)
+[DRP (Detailed Document Report)](https://drive.google.com/file/d/1uVYkenlpnxiU302AqOVxicOPeIQLlrQe/view?usp=sharing)
 ## Technologies Used
 
 * Python
