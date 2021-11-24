@@ -23,3 +23,4 @@ wincertstore==0.2
 zipp==3.6.0
 cassandra-driver
 dnspython
+xgboost
