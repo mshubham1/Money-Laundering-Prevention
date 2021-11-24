@@ -4,12 +4,13 @@ gunicorn==20.1.0
 itsdangerous==2.0.1
 Jinja2==3.0.3
 joblib==1.1.0
-numpy==1.21.4
-pandas==1.3.4
+numpy
+pandas
 pytz==2021.3
-scikit-learn==1.0.1
-sklearn==0.0
+scikit-learn
+sklearn
 Werkzeug==2.0.2
 cassandra-driver
 dnspython
 xgboost
+
