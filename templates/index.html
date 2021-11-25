@@ -7,30 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Money Laundering Prevention</title>
     <style>
-     body {
-            background-color:#6666ff;
+      body {
+            background-image: url({{ url_for('static', filename='image/money.jpg') }});
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            opacity: 0.9;
             text-align: center;
-            padding: 0px;
-        }
-        }
-    
-    
-        .row {
-            display: flex;
-        }
-    
-        .column {
-            flex: 50%;
-            padding: 10px;
-            height: 100%;
-            /* Should be removed. Only for demonstration */
-        } 
-       
+         }
         #step {
-            font-size: 18px;
-            width: 100px;
-            height: 23px;
-            top: 23px;
+            border-radius: 14px;
+            width: 230px;
+            height: 25px;
+            font-size: 20px;
+            text-align: center;
         }
        
         
@@ -46,13 +36,6 @@
             background-color: darkcyan;
         }
         
-        #amount {
-            border-radius: 14px;
-            height: 25px;
-            font-size: 20px;
-            text-align: center;
-        }
-      
      
     </style>
 </head>
@@ -65,9 +48,7 @@
                 <h1 > Money Laundering Prevention </h1>
             </center>
        
-
         <style>
-
             .result_div {
                 height: 80px;
                 width: 600px;
@@ -76,7 +57,7 @@
             }
 
             .result_text {
-                padding: 15px;
+                padding: 8px;
                 text-align: center;
             }
 
@@ -124,18 +105,11 @@
           </form>
            <center>
                 <b>
-                    <p> Shubham Mourya ( Money Laundering Prevention )<br>© 2021</p>
+                    <h1> Shubham Mourya ( Money Laundering Prevention )<br>© 2021</h1>
                 </b>
                 <br>
             </center>
-
-        </div>
     </div>
-
-
-   
-</div>
-  
+ 
 </body>
-
 </html>
