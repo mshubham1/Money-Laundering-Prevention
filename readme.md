@@ -19,9 +19,7 @@ To build a machine learning model that can identify the money laundering activit
 > AWS(Ec2):- http://ec2-18-191-226-180.us-east-2.compute.amazonaws.com:8080/
 
 * Web
-![pic1](https://user-images.githubusercontent.com/47842305/139574877-0f69b2d6-b1cc-4c57-9871-d36c5521425d.png)
-![pic2](https://user-images.githubusercontent.com/47842305/139574888-6834b33d-0913-4a42-9a15-e3cea6f399ac.png)
-
+![bandicam 2021-11-25 23-20-30-407](https://user-images.githubusercontent.com/47842305/143485470-7213a078-c909-4cd8-9740-327ea03157fd.gif)
 
 ## Overview  📜
 The application is a web app which is developed in Flask Framework.
