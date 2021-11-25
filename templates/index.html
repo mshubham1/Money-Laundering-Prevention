@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Money Laundering Prevention</title>
     <style>
-      body {
+     body {
             background-image: url({{ url_for('static', filename='image/money.jpg') }});
             background-repeat: no-repeat;
             background-attachment: fixed;
@@ -15,6 +15,8 @@
             opacity: 0.9;
             text-align: center;
          }
+
+       
         #step {
             border-radius: 14px;
             width: 230px;
@@ -40,14 +42,9 @@
     </style>
 </head>
 
-<body  background="templates/premium.jpg">
-  <div>
-
-        <div style="height: 100px; width: 100%; padding: 30px;  ">
-            <center>
-                <h1 > Money Laundering Prevention </h1>
-            </center>
-       
+<body>
+  
+    
         <style>
             .result_div {
                 height: 80px;
@@ -62,9 +59,8 @@
             }
 
         </style>
-         </div>
         <center>
-
+               <h1 > Money Laundering Prevention </h1>
             {% if result == 'The transaction is fraud!! Be Aware.' %}
             <div class="result_div" style="border: 3px solid red;">
                 <h2 class="result_text" style="color: red;"> <b>{{result}}</b> </h2>
@@ -82,16 +78,13 @@
         </center> 
         
 
-     <div class="row" style="color:black">
-        <div class="column">
-
+     <div style="color:black">
           <form action="{{ url_for('predict')}}" method="post">
-         
             <h3>Step :</h3><input id="step" name="step" type="text">
-            <h3>Amount :</h3><br><input id="amount" name="amount" required="required">
-            <h3>OldbalanceOrg : </h3><input id="amount" name="oldbalanceOrg" required="required">
-            <h3>OldbalanceDest: </h3><br><input id="amount" name="oldbalanceDest" required="required">
-            <h3>Type: </h3><br><select id="amount"  name="type" required>
+            <h3>Amount :</h3><input id="step" name="amount" required="required">
+            <h3>OldbalanceOrg : </h3><input id="step" name="oldbalanceOrg" required="required">
+            <h3>OldbalanceDest: </h3><input id="step" name="oldbalanceDest" required="required">
+            <h3>Type: </h3><select id="step"  name="type" required>
  				 <option value="CASH_IN"> CASH_IN </option>
 				 <option value="CASH_OUT"> CASH_OUT </option>
  				 <option value="DEBIT"> DEBIT </option>
@@ -105,11 +98,12 @@
           </form>
            <center>
                 <b>
-                    <h1> Shubham Mourya ( Money Laundering Prevention )<br>© 2021</h1>
+                    <p> Shubham Mourya ( Money Laundering Prevention )<br>© 2021</p>
                 </b>
                 <br>
             </center>
     </div>
- 
+  
 </body>
+
 </html>
