@@ -16,7 +16,7 @@ To build a machine learning model that can identify the money laundering activit
 * Future scope of project
 ## Demo
 
-AWS(Ec2):- http://ec2-3-137-189-77.us-east-2.compute.amazonaws.com:8080/
+> AWS(Ec2):- http://ec2-18-191-226-180.us-east-2.compute.amazonaws.com:8080/
 
 * Web
 ![pic1](https://user-images.githubusercontent.com/47842305/139574877-0f69b2d6-b1cc-4c57-9871-d36c5521425d.png)
@@ -25,7 +25,7 @@ AWS(Ec2):- http://ec2-3-137-189-77.us-east-2.compute.amazonaws.com:8080/
 
 ## Overview  📜
 The application is a web app which is developed in Flask Framework.
-
+>Read more about it at [Blogpost.](https://medium.com/@shubhammourya2014/money-laundering-prevention-ac24066ec7fe)
 ## Dataset  
 Dataset available in kaggle: PaySim
 
